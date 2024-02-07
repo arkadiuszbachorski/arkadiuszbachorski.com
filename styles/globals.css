@@ -1,0 +1,86 @@
+@import "fonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark1 text-white;
+  }
+
+  ul li::marker {
+    @apply text-turquoise;
+  }
+
+  *::selection {
+    @apply bg-turquoise/40;
+  }
+}
+
+@layer utilities {
+  .pt-section {
+    @apply pt-20 lg:pt-40;
+  }
+
+  .pb-section {
+    @apply pb-20 lg:pb-40;
+  }
+
+  .py-section {
+    @apply pt-section pb-section;
+  }
+
+  .bg-glow {
+    background: radial-gradient(
+      ellipse at center,
+      rgba(45, 242, 255, var(--opacity, 1)),
+      transparent
+    );
+  }
+
+  .text-sideways {
+    writing-mode: tb-rl;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .border-glow {
+    --border-opacity: 0.75;
+    --border-color: rgb(255 255 255 / var(--border-opacity));
+    @apply relative;
+  }
+
+  .border-glow:after,
+  .border-glow:before {
+    @apply absolute content-[""] pointer-events-none z-10 mix-blend-overlay;
+  }
+
+  .border-glow:before {
+    @apply left-0 right-0 top-0 bottom-0 border border-b-0 h-[--radius] rounded-t-[--radius] border-[--border-color];
+  }
+
+  .border-glow:after {
+    @apply border-t-0 border-[1px];
+    inset: var(--radius) 0 0 0;
+    border-image: linear-gradient(
+        180deg,
+        var(--border-color) 0,
+        transparent 100%
+      )
+      1;
+  }
+}

@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "n27";
+  src:
+    url("../public/fonts/n27-medium-webfont.woff2") format("woff2"),
+    url("../public/fonts/n27-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "n27";
+  src:
+    url("../public/fonts/n27-light-webfont.woff2") format("woff2"),
+    url("../public/fonts/n27-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "n27";
+  src:
+    url("../public/fonts/n27-bold-webfont.woff2") format("woff2"),
+    url("../public/fonts/n27-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "n27";
+  src:
+    url("../public/fonts/n27-regular-webfont.woff2") format("woff2"),
+    url("../public/fonts/n27-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "n27";
+  src:
+    url("../public/fonts/n27-extralight-webfont.woff2") format("woff2"),
+    url("../public/fonts/n27-extralight-webfont.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "n27";
+  src:
+    url("../public/fonts/n27-thin-webfont.woff2") format("woff2"),
+    url("../public/fonts/n27-thin-webfont.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  src:
+    url("../public/fonts/n27-regularitalic-webfont.woff2") format("woff2"),
+    url("../public/fonts/n27-regularitalic-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "n27";
+  src:
+    url("../public/fonts/n27-lightitalic-webfont.woff2") format("woff2"),
+    url("../public/fonts/n27-lightitalic-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "n27";
+  src:
+    url("../public/fonts/n27-bolditalic-webfont.woff2") format("woff2"),
+    url("../public/fonts/n27-bolditalic-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "n27";
+  src:
+    url("../public/fonts/n27-mediumitalic-webfont.woff2") format("woff2"),
+    url("../public/fonts/n27-mediumitalic-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "n27";
+  src:
+    url("../public/fonts/n27-extralightitalic-webfont.woff2") format("woff2"),
+    url("../public/fonts/n27-extralightitalic-webfont.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "n27";
+  src:
+    url("../public/fonts/n27-thinitalic-webfont.woff2") format("woff2"),
+    url("../public/fonts/n27-thinitalic-webfont.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  src: url("../public/fonts/IBMPlexMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
