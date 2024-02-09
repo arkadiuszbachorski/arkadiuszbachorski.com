@@ -12,7 +12,7 @@ import { CSSCustomProperty } from "utils/misc";
 const repositories = [
   {
     name: "arkadiuszbachorski.com",
-    link: "https://github.com/arkadiuszbachorski/arkadiuszbachorski",
+    link: "https://github.com/arkadiuszbachorski/arkadiuszbachorski.com",
     description: "View this page source code!",
     technologies: ["Next", "TypeScript", "Tailwind"],
     img: abImg,
