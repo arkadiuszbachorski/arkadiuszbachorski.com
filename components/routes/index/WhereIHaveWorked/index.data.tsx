@@ -56,7 +56,7 @@ export const companies = [
   },
   {
     time: "Oct 2021 <-- Aug 2020",
-    name: "apptenstion",
+    name: "apptension",
     link: "https://www.apptension.com/",
     logo: {
       img: apptensionImg,
