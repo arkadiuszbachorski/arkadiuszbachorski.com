@@ -21,6 +21,7 @@ export const CompanyItem = ({ company, index }: CompanyItemProps) => (
         style={{
           backgroundColor: company.logo.color,
         }}
+        aria-label={company.name}
       >
         {company.logo.img && (
           <Image
@@ -31,9 +32,9 @@ export const CompanyItem = ({ company, index }: CompanyItemProps) => (
         )}
       </Link>
       <div>
-        <h5 className="text-nowrap text-body1 font-medium md:text-heading4">
+        <h3 className="text-nowrap text-body1 font-medium md:text-heading4">
           {company.position}
-        </h5>
+        </h3>
         <Link
           href={company.link}
           className="text-turquoise text-body1 font-medium md:text-heading5"
