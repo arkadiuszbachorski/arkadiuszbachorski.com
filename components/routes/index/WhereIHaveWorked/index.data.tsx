@@ -33,7 +33,7 @@ export const companies = [
     ],
   },
   {
-    time: "present <-- Sep 2021",
+    time: "Feb 2024 <-- Sep 2021",
     name: "robust_intelligence",
     link: "https://www.robustintelligence.com",
     logo: {
