@@ -8,7 +8,7 @@ interface LogoProps {
 export const Logo = ({ className }: LogoProps) => (
   <Link
     href="/"
-    className={classNames("text-4xl transition hover:opacity-60", className)}
+    className={classNames("text-4xl interactive-opacity rounded", className)}
   >
     AB_
   </Link>

@@ -23,7 +23,7 @@ export const Card = ({
     onMouseEnter={() => onSetIsProjectHovered(true)}
     onMouseLeave={() => onSetIsProjectHovered(false)}
     className={classNames(
-      "bg-dark1 cursor-none border-glow rounded-2xl [--radius:1rem] flex-center overflow-hidden",
+      "bg-dark1 cursor-none border-glow rounded-2xl [--radius:1rem] flex-center overflow-hidden focus-ring",
       className
     )}
     style={{

@@ -43,7 +43,7 @@ export const ShowMeTheCode = () => (
             href={link}
             target="_blank"
             key={name}
-            className="flex flex-col pt-8 pb-2 md:pt-14 px-6 md:px-14 gap-8 rounded-3xl border-glow bg-glow [--radius:1.5rem]"
+            className="focus-ring flex flex-col pt-8 pb-2 md:pt-14 px-6 md:px-14 gap-8 rounded-3xl border-glow bg-glow [--radius:1.5rem]"
             initial={{
               ["--opacity" as CSSCustomProperty]: 0,
             }}

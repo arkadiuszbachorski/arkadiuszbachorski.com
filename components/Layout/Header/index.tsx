@@ -16,7 +16,7 @@ export const Header = () => {
     <Link
       href="/arkadiusz-bachorski-resume.pdf"
       target="__blank"
-      className="transition hover:opacity-60"
+      className="interactive-opacity rounded"
     >
       My resume
     </Link>

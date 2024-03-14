@@ -17,7 +17,7 @@ export const CompanyItem = ({ company, index }: CompanyItemProps) => (
     <header className="flex items-center gap-7">
       <Link
         href={company.link}
-        className="flex-center size-16 bg-[red] rounded-full p-3 shrink-0"
+        className="flex-center size-16 bg-[red] rounded-full p-3 shrink-0 interactive-opacity"
         style={{
           backgroundColor: company.logo.color,
         }}
@@ -37,7 +37,7 @@ export const CompanyItem = ({ company, index }: CompanyItemProps) => (
         </h3>
         <Link
           href={company.link}
-          className="text-turquoise text-body1 font-medium md:text-heading5"
+          className="text-turquoise text-body1 font-medium md:text-heading5 interactive-opacity rounded"
         >
           @{company.name}
         </Link>

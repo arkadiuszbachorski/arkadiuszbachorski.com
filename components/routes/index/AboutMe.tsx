@@ -60,7 +60,7 @@ export const AboutMe = () => (
           <span className="relative">
             music.
             <a
-              className="bg-blue hover:bg-blue-dark transition-colors flex justify-center items-center md:absolute mt-2 md:mt-0 top-3 -right-12 size-12 rounded-full"
+              className="bg-blue hover:bg-blue-dark transition-colors flex justify-center items-center md:absolute mt-2 md:mt-0 top-3 -right-12 size-12 rounded-full focus-ring"
               href="https://soundcloud.com/quezpl/popular-tracks"
               target="__blank"
             >

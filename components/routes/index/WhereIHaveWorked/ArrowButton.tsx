@@ -10,7 +10,7 @@ type ArrowButtonProps = Omit<HTMLProps<HTMLButtonElement>, "type"> & {
 export const ArrowButton = ({ className, ...props }: ArrowButtonProps) => (
   <button
     type="button"
-    className={classNames("p-2 transition hover:opacity-60", className)}
+    className={classNames("p-2 interactive-opacity rounded", className)}
     {...props}
   >
     <Image src={arrowRightIcon} alt={props["aria-label"]} className="size-6" />

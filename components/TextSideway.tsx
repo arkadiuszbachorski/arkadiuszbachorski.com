@@ -27,6 +27,7 @@ export const TextSideway = ({
       : "hidden lg:flex text-label1",
       className
     )}
+    aria-hidden
     {...props}
   >
     <motion.span

@@ -67,7 +67,7 @@ export const ButtonDot = ({
       type={href ? undefined : type}
       href={href}
       className={classNames(
-        "group flex font-medium items-center relative",
+        "group flex font-medium items-center relative focus-ring rounded",
         isLarge ? "h-[90px] text-2xl" : "h-[60px]",
         className
       )}

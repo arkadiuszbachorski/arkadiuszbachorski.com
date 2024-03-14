@@ -18,6 +18,12 @@
   }
 }
 
+@layer components {
+  .link {
+    @apply underline underline-offset-4	interactive-opacity rounded;
+  }
+}
+
 @layer utilities {
   .pt-section {
     @apply pt-20 lg:pt-40;
@@ -30,6 +36,24 @@
   .py-section {
     @apply pt-section pb-section;
   }
+
+  .focus-ring {
+    @apply ring-offset-dark1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-turquoise focus-visible:ring-offset-4;
+  }
+
+  .interactive-opacity {
+    @apply focus-ring transition hover:opacity-60;
+  }
+
+  .transition-all,
+  .transition,
+  .transition-colors,
+  .transition-opacity,
+  .transition-shadow,
+  .transition-transform {
+    @apply duration-300;
+  }
+
 
   .bg-glow {
     background: radial-gradient(

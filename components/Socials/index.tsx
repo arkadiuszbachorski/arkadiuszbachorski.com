@@ -5,7 +5,7 @@ import ghImg from "./github.svg";
 import classNames from "classnames";
 
 const classes = {
-  icon: "transition-opacity opacity-50 hover:opacity-100",
+  icon: "transition focus-ring opacity-50 p-1 rounded hover:opacity-100",
 };
 
 interface SocialsProps {
@@ -13,7 +13,7 @@ interface SocialsProps {
 }
 
 export const Socials = ({ className }: SocialsProps) => (
-  <div className={classNames("flex gap-6 items-center", className)}>
+  <div className={classNames("flex gap-5 items-center", className)}>
     <a
       href="https://www.github.com/arkadiuszbachorski"
       className={classes.icon}

@@ -25,7 +25,7 @@ export const Footer = () => {
         </p>
         <motion.button
           onClick={onMailClick}
-          className="block sm:text-center text-[6vw] md:text-[52px] lg:text-heading3 font-medium mb-20 sm:mb-24 text-transparent bg-white bg-clip-text transition-[background-position,opacity] bg-[length:280%] hover:opacity-60"
+          className="block sm:text-center text-[6vw] md:text-[52px] lg:text-heading3 font-medium mb-20 sm:mb-24 text-transparent bg-white bg-clip-text transition-[background-position,opacity] bg-[length:280%] interactive-opacity rounded"
           style={{
             backgroundImage:
               "linear-gradient(to right, #2DF2FF, #4453D6, #2DF2FF)",

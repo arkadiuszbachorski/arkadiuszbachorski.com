@@ -16,15 +16,15 @@ export const companies = [
     points: [
       <>
         Selected work -{" "}
-        <Link href="https://www.formless.xyz" className="underline">
+        <Link href="https://www.formless.xyz" className="link">
           Formless
         </Link>
         ,{" "}
-        <Link href="https://smoothie.so" className="underline">
+        <Link href="https://smoothie.so" className="link">
           Smoothie
         </Link>
         ,{" "}
-        <Link href="https://www.captionary.ai" className="underline">
+        <Link href="https://www.captionary.ai" className="link">
           captionary.ai
         </Link>
       </>,
@@ -68,7 +68,7 @@ export const companies = [
         Built{" "}
         <Link
           href="https://www.apptension.com/case-study/mtab"
-          className="underline"
+          className="link"
         >
           mTab Marketplace
         </Link>{" "}
@@ -79,7 +79,7 @@ export const companies = [
         Contributed to{" "}
         <Link
           href="https://www.apptension.com/saas-boilerplate"
-          className="underline"
+          className="link"
         >
           SaaS Boilerplate
         </Link>{" "}
