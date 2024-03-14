@@ -7,7 +7,7 @@ import Head from "next/head";
 const meta = {
   title: "Arkadiusz Bachorski | Fullstack Engineer",
   description:
-    "Portfolio of Fullstack Web Engineer - Arkadiusz Bachorski. My career, projects I've been working on, couple words about me and contact details",
+    "Portfolio of Fullstack Engineer. My career, projects I've been working on, couple words about me and contact details",
 };
 
 const App = ({ Component, pageProps }: AppProps) => (
