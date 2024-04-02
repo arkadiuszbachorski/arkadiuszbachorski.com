@@ -54,7 +54,6 @@
     @apply duration-300;
   }
 
-
   .bg-glow {
     background: radial-gradient(
       ellipse at center,
