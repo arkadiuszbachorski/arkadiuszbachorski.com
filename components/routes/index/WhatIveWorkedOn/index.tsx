@@ -33,6 +33,8 @@ export const WhatIveWorkedOn = () => {
     return () => {
       window.removeEventListener("mousemove", moveCursor);
     };
+    // mousemove event listener can be mounted once only
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
